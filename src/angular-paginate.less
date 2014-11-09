@@ -1,0 +1,29 @@
+@seagreen: #16A085;
+@color-sombre: #232526;
+.scroll {
+    &-top {
+        height: 0;
+        padding: 0;
+        position: fixed;
+        right: 30px;
+        bottom: 30px;
+        transition: background .2s linear;
+        cursor: pointer;
+        z-index: 99999;
+        border: 2px solid @seagreen;
+         height: 40px;
+            background-color: @color-sombre;
+            color: @seagreen;
+            i {
+                color: @seagreen;
+            }
+    }
+    &-link {
+        margin: 16px;
+        list-style: none;
+        line-height: 37px;
+        text-decoration: initial;
+        text-align: center;
+        font-weight: bold;
+    }
+}
